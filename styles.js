@@ -94,16 +94,37 @@ export default StyleSheet.create({
         fontSize: 22,
         textAlign: "center"
     },
-    nextButton: {
+    nextButton: { //Next button on each page
         borderRadius: 5,
         borderWidth: 1,
         borderColor: Colors.black,
         backgroundColor: Colors.appGray,
         marginBottom: 30
     },
-    nextText: {
+    nextText: { //Styling for "Next" text
         textAlign: "center",
         fontSize: 22,
+        fontWeight: "bold"
+    },
+    storyContentBox: { //Styling for content box
+        alignItems: "center",
+        paddingHorizontal: 16,
+        marginTop: 35
+    },
+    storyContentText: {
+        fontsize: 22,
+        textColor: Colors.black
+    },
+    storyTitleBox: { //Styling for title
+        alignItems: "center",
+        borderColor: Colors.black,
+        borderRadius: 10,
+        borderWidth: 1,
+        marginTop: 30
+    },
+    storyTitleText: {
+        textAlign: "center",
+        fontSize: 30,
         fontWeight: "bold"
     }
 })
