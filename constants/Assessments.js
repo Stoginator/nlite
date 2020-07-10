@@ -1,11 +1,9 @@
 /* // ASSESSMENT TEMPLATE
-
 const l  = [""] // list of all the letters in assessment 
 const w = [""] // list all the words in assessment
 const p = ["", ""] // list of both paragraphs 
 const s = "" // string of whole story
 const q = ["", ""] // questions of the assessment story
-
 const A = { // Assessment Object
     letters: l,
     words: w,

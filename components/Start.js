@@ -7,6 +7,7 @@ import Paragraph from "./Paragraph"
 import Letter from "./Letter"
 import Word from "./Word"
 import styles from "../styles"
+import ParagraphRead from "./ParagraphRead"
 
 const Stack = createStackNavigator();
 
@@ -19,6 +20,7 @@ const Start = () => {
             <Stack.Screen name= "Paragraph" component = {Paragraph}/>
             <Stack.Screen name= "Letter" component = {Letter}/>
             <Stack.Screen name= "Word" component = {Word}/>
+            <Stack.Screen name= "ParagraphRead" component = {ParagraphRead}/>
         </Stack.Navigator>
     </View>
   );

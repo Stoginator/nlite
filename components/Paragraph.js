@@ -23,7 +23,7 @@ const Paragraph = () => {
     return( 
             <TestContext.Consumer>
                 { //(state.state.assessment.paragraphs)
-                    state => state ? <Choice p1 = {state.state.assessment.paragraphs[0]} p2={state.state.assessment.paragraphs[1]}/>
+                    context => context ? <Choice p1 = {context.state.assessment.paragraphs[0]} p2={context.state.assessment.paragraphs[1]}/>
                         : 
                         console.log("no state")
                 }

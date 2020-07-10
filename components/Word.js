@@ -10,10 +10,19 @@ const Word = () => {
     } 
 
     return(
-        <View>
-            <Text>Hi</Text>
-            <TouchableOpacity onPress = {() => navigateNext()}><Text>NEXT</Text></TouchableOpacity>
-        </View>
+    <View>
+        <TouchableOpacity style = {styles.leftWordBox}><Text style = {styles.wordText}>{props.word[0]}</Text></TouchableOpacity>
+        <TouchableOpacity style = {styles.rightWordBox}><Text style = {styles.wordText}>{props.words[1]}</Text></TouchableOpacity>
+        <TouchableOpacity style = {styles.leftWordBox}><Text style = {styles.wordText}>{props.words[2]}</Text></TouchableOpacity>
+        <TouchableOpacity style = {styles.rightWordBox}><Text style = {styles.wordText}>{props.words[3]}</Text></TouchableOpacity>
+        <TouchableOpacity style = {styles.leftWordBox}><Text style = {styles.wordText}>{props.words[4]}</Text></TouchableOpacity>
+        <TouchableOpacity style = {styles.rightWordBox}><Text style = {styles.wordText}>{props.words[5]}</Text></TouchableOpacity>
+        <TouchableOpacity style = {styles.leftWordBox}><Text style = {styles.wordText}>{props.words[6]}</Text></TouchableOpacity>
+        <TouchableOpacity style = {styles.rightWordBox}><Text style = {styles.wordText}>{props.words[7]}</Text></TouchableOpacity>
+        <TouchableOpacity style = {styles.leftWordBox}><Text style = {styles.wordText}>{props.words[8]}</Text></TouchableOpacity>
+        <TouchableOpacity style = {styles.rightWordBox}><Text style = {styles.wordText}>{props.words[9]}</Text></TouchableOpacity>
+        <TouchableOpacity style = {styles.nextButton}><Text style = {styles.nextText}>Next</Text></TouchableOpacity>
+    </View>
     )
 }
 
